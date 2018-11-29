@@ -1,0 +1,373 @@
+@media (min-width:1025px){
+    
+    .heading-about{
+    font-size: 60px;}
+    .servicos-sede:not(.align-right) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .botao-acao-banner {
+        margin-left: -160px
+    }
+
+    .banner_home {
+        background-size: 100% !important
+    }
+    .logo-footer{
+        margin-left: -1.6%   
+    }
+    .social-footer {
+        margin: 20px auto
+    }
+    .about-page * {
+        padding-left: 60px;
+    }
+}
+@media (width:1366px){
+    .plano-banner {
+    height: 40vh;
+}
+    .service-banner, .cont-online-banner {
+    height: 90vh;
+}
+.space-50 {
+    height: 70px
+}
+}
+@media (width:1024px){
+    body {
+        max-width: 100%;
+    }
+    .links-right {
+        float: left;
+        margin-top: 20px;
+        margin-left: 23%
+    }
+    .links-right li {
+        display: inline-block !important;
+        float: left;
+    }
+    .row-banner {
+        margin-top: 15%
+    }
+    .row-banner1 {
+        margin-top: 5%
+    }
+    .flot-um {
+        margin-top: 10%;
+    }
+    .flot-dois {
+        margin-top: 17%;
+    }
+    .logo {
+        margin-top: 5%
+    }
+    .social-footer {
+        width: 300px;
+        text-align: left;
+    }
+    .about-page p {
+        padding-left: 60px;
+    }
+    .about-page * {
+        padding-left: 60px;
+    }
+    .servicos-about {
+        padding: 5% 0 5% 9%;
+    }
+    .section-home {
+        padding: 0 0 0 10%;
+
+    }
+    .servicos-sede-virtual {
+        padding-left: 10%
+    }
+    .about-daciatos-banner {
+        height: 170vh
+    }
+    .ipad-padding-left{
+        padding-left: 130px !important
+    }
+    .special-h1 {
+        top: -25px;
+        padding: 30px 30px 50px 30px;
+    }
+    
+    .servicos-sede {
+        width: 100% !important;
+        clear: both  !important;
+        float: left  !important;
+        margin: 10px
+    }
+    #contabilidade-online .servicos-sede-virtual, #sede-virtual .servicos-sede-virtual {
+        padding-top: 20%;
+        margin-left: -40%
+    }
+    .service-banner, .cont-online-banner {
+    height: auto;
+    }
+    .plano-banner {
+    height: 50vh
+}
+}
+@media (width:768px){
+    body, html {
+        width:100%;
+        overflow-x: hidden !important
+    }    
+    .links-right {
+        float: left;
+        margin-top: 20px;
+        margin-left: 23%
+    }
+    .links-right li {
+        display: inline-block !important;
+        float: left;
+    }
+    .row-banner {
+        margin-top: 35%
+    }
+    .row-banner1 {
+        margin-top: 25%
+    }
+    .flotada {
+        right: 0%;
+    }
+    .flot-um {
+        margin-top: 30%;
+    }
+    .flot-dois {
+        margin-top: 40%;
+    }
+    .logo {
+        margin-top: 5%;
+        margin-left:15%
+    }
+    .logo-footer {
+        padding-top: 5%
+    } 
+    .social-footer {
+        margin: 20px auto;
+        display: table
+    }
+    .footer-bottom p {
+        padding-left: 50px
+    }
+    .links-footer-left {
+        margin-left: 10%
+    }
+    .about-page {
+        padding-left: 70px;
+    }
+    .about-page * {
+        padding-left: 60px;
+    }
+    .servicos-about {
+        padding: 5% 0 5% 19%;
+    }
+    .last-row .last {
+        margin-left: 23%
+    }
+    .section-home {
+        padding: 0 0 0 15.5%;
+
+    }
+    .servicos-sede-virtual {
+        padding-left: 0
+    }
+}
+@media (width:736px){
+    .navbar-header .in {
+        overflow-x: scroll !important
+    }
+    .logo {
+        margin-top:13%
+    }
+    .row-banner {
+        margin-top: 2%
+    }
+    .links-right {
+        float: left;
+        margin-top: 10px;
+        margin-left: 10%
+    }
+    .links-right li {
+        display: inline-block !important;
+        float: left;
+    }
+    .banner_home {
+        height: 650px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .links-right {
+        float: left;
+        margin-top: 20px;
+        margin-left: 13%
+    }
+    .logo-footer a img{
+        padding-top: 5%;
+        margin-left: -5%;
+        float: left;
+        clear: both;
+        display: table
+    }
+    .special-h1 {
+        left: 0;
+        top: 60px;
+        padding: 30px 30px 50px 30px;
+    }
+    .service-banner {
+        height: 360vh
+    }
+
+}
+@media (width:414px){
+    * {
+        overflow: visible
+    }
+    .logo {
+        margin-top:25%
+    }
+    .principal-title {
+        text-align: center;
+        border:0
+    }
+    .links-right {
+        float: left;
+        margin-top: 20px;
+        margin-left: 13%
+    }
+    .logo-footer a img{
+        padding-top: 5%;
+        margin-left: -5%;
+        float: left;
+        clear: both;
+        display: table
+    } 
+    .about-page *{
+
+        padding-left: -10%;
+    }
+    .about-page {
+        padding-top: 15%;
+        padding-left: -10%;
+    }
+    .about-page p {
+        margin: 0
+    }
+    .about-banner {
+        height: 150vh
+    }
+    .about-daciatos-banner {
+        height: 250vh
+    }
+    .special-h1 {
+        left: 0;
+        top: 60px;
+        padding: 30px 30px 50px 30px;
+    }
+    .service-banner {
+        height: 260vh
+    }
+}
+@media (min-width:414px){
+    .servicos-sede{
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+}
+
+.servicos-sede .align-right {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+}
+}
+@media (max-width:414px){
+    .navbar-brand {
+    float: left;
+    padding:0; 
+    }
+    .logo {
+    margin-top: 33%;
+}
+.links-right {
+    list-style: none;
+     float: none;
+     margin: 10px auto;
+     display: table
+}
+.links-right li {
+    margin: 10px auto;
+     display: table
+}
+.servicos-about, .ptb-home {
+    padding: 0 !important;
+    margin: 0 !important
+}
+.tabbable-panel {
+    padding: 0px;
+    margin-left: 0px;
+}
+.cont-online-banner .special-h1 p {
+    font-weight: normal;
+}
+.cont-online-banner .special-h1 {
+    font-weight: bold;
+    font-size: 40px;
+    top: -2.3%;
+    left: 0;
+    padding: 5px !important;
+}
+#sede-virtual .special-h1 {
+    font-weight: bold;
+    font-size: 40px;
+    top: -2.3%;
+    left: 0;
+    padding: 15px 25px 25px 15px !important;
+}
+.space-50 {
+    height: 30px
+}
+.servicos-sede * {
+    width: 100%;
+}
+.servicos-sede img {
+    margin: 10px auto;
+    display: table;
+    float: none
+}
+.tab-pane {
+    height: auto;
+}
+footer {
+    padding: 5px 
+}
+.remodal {
+    max-width: 100%;
+    padding: 5px
+}
+.small-xs {
+    font-size: 40px
+}
+
+.owl-planos1 *{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+.section-home, .servicos-about, .about-banner, .about-home, .about-daciatos-banner {
+    height: auto
+}
+}
+@media (width:375px){
+    * {
+        max-width: 375px;
+        box-shadow: none !important
+    }
+}
