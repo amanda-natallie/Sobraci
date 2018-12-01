@@ -11,7 +11,13 @@
         <link rel="stylesheet" href="assets/css/main.css">
         <link rel="stylesheet" href="assets/css/hover-min.css">
         <link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
         <link rel="shortcut icon" href="assets/img/favicon.png">
+        <link type="text/css" href="revolution/css/settings.css" rel="stylesheet">
+        <link type="text/css" href="revolution/css/layers.css" rel="stylesheet">
+        <link type="text/css" href="revolution/css/navigation.css" rel="stylesheet">
+        <link type="text/css" href="" rel="stylesheet">
+        <link type="text/css" href="" rel="stylesheet">
         <style>
             
         </style>

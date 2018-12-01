@@ -5,12 +5,17 @@
     box-sizing: border-box;
     transition: all ease 0.3s
 }
+.navbar-default {
+    background-color: #fff;
+    border-color: #e7e7e7;
+}
 html, body{
   height: 100%;
   width: 100%;
 }
 h1, h2, h3, h4, h5 {
-    font-weight: bold
+    font-weight: bolder;
+    text-transform: uppercase
 }
 .p-40 {
     padding: 40px 
@@ -30,6 +35,12 @@ h1, h2, h3, h4, h5 {
 .navbar-brand  {
     float: left;
     padding: 0;
+}
+.bolder {
+    font-weight: bolder
+}
+.relative {
+    position: relative;
 }
 body {
     padding-top: 70px;
@@ -168,6 +179,67 @@ box-shadow: 10px 10px 43px -10px rgba(0,0,0,0.75);
     border: 0 !important
 }
 .form-control{
-    padding: 20px !important;
+    padding: 20px 
     
+}
+.news-img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    max-height: 215px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px
+}
+.news-description {
+    margin-top: 215px;
+    padding: 0 30px;
+}
+.news-description p, .section-title p{
+   color: #444;
+   font-weight: 500;
+   font-size: 12px
+}
+.news-description a:hover p{
+   color: #444;
+   text-decoration: none
+}
+.section-title {
+    margin-top: 30px;
+    padding: 50px 40px;
+}
+.inverse-text * {
+    color: #fff;
+}
+.relative .form-control{
+  padding-left: 60px !important;
+  color: #444
+}
+.ico-newsletter{
+  position: absolute;
+  top: 15px;
+  left: 40px
+}
+footer {
+    padding-top: 10px;
+    border-top: 1px solid #ccc
+}
+.footer-top {
+    padding: 10px 0
+}
+.footer-top ul {
+    margin-top: 10px;
+    font-size: 11px;
+    color: #444;
+}
+.footer-top ul li {
+    margin: 10px
+}
+.footer-bottom {
+    padding: 10px 0 5px 0;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px
+}
+.footer .social-header li{
+ margin-left: 5px !important
 }
