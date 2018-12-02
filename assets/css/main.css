@@ -18,11 +18,14 @@ h1, h2, h3, h4, h5 {
     text-transform: uppercase
 }
 .p-40 {
-    padding: 40px 
-        
+    padding: 40px       
 }
 .pl-40 {
     padding: 0 40px 
+        
+}
+.pt-40 {
+    padding:  40px 0
         
 }
 .navbar {
@@ -40,8 +43,19 @@ h1, h2, h3, h4, h5 {
     float: left;
     padding: 0;
 }
+.text-small *:not(.bolder){
+    font-size: 12px;
+    font-weight: 300;
+    color: #444
+}
+.lowercase {
+    text-transform: none
+}
+.bold {
+    font-weight: 500
+}
 .bolder {
-    font-weight: bolder
+    font-weight: 900
 }
 .relative {
     position: relative;
@@ -52,6 +66,11 @@ body {
 }
 a {
     color: #008342
+}
+a:hover {
+    color: #008342;
+    text-decoration: none;
+    cursor: pointer
 }
 .light-green-bg {
     background: #94C325 !important;
@@ -76,6 +95,14 @@ a {
     font-weight: 800;
     color: #333333;
     font-size: 25px
+}
+.page-heading {
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #00783C;
+    font-size: 25px;
+    margin-top: 16.5vh;
+    font-size: 40px
 }
 .big-green-button {
     background: #008342;
@@ -255,4 +282,147 @@ footer {
 }
 .nav>li>a {
     padding: 15px 10px
+}
+.banner_breadcrumb {
+    background-size: 100%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+.grid-item { 
+    height: 380px !important
+}
+.fixed-height {
+    height: 360px;
+    margin-bottom: 60px;
+}
+.racas .fixed-height {
+    height: 340px;
+}
+.artigos .fixed-height {
+    height: 380px;
+}
+.recon .fixed-height {
+    height: 430px;
+}
+.juiz {
+    margin: 10px 0
+}
+.juiz *:not(img){
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin: 5px 0
+}
+.juiz small {
+    font-size: 10px;
+    color: #94C325;
+    font-weight: 500
+}
+.juiz p a {
+    color: #444;
+    font-size: 10px;
+}
+
+.recint {
+    margin: 10px 0
+}
+.recint *:not(img){
+    text-align: left;
+    width: 100%;
+    float: left;
+    margin: 5px 0
+}
+.recint small {
+    font-size: 10px;
+    color: #444;
+    font-weight: 400
+}
+.recint p a {
+    color: #444;
+    font-size: 10px;
+}
+.recint span {
+    margin-bottom: 20px;
+    margin-top: -5px
+}
+.gray-text {
+    color: #555;
+    line-height: 13px;
+    font-size: 12px;
+}
+
+.filters {
+    list-style: none;
+}
+.filters>li>a.current {
+   color: #00783C;
+   font-weight: 800
+}
+.filters>li {
+    display: inline-block
+}
+.filters {
+    padding: 0;
+    margin: 0 0 40px;
+    font-size: 0
+}
+
+.filters>li>a {
+    font-weight: 400;
+    color: #444;
+    margin: 0 5px;
+    padding: 0 10px;
+    font-size: 12px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent
+}
+.racas {
+    margin-top: 50px
+}
+.pagination * {
+    border: 0 !important
+}
+.pagination li a{
+    margin-top: 1.3vh;
+    color: #00783C;
+    font-weight: 700;
+    background: none
+}
+.pagination li:first-of-type a, .pagination li:last-of-type a{
+    padding: 15px 25px;
+    border-radius: 3px;
+     color: #fff;
+     font-weight: 700;
+     margin-top: 0
+}
+.pagination li:first-of-type a {
+    background: #444;
+    margin-right: 30px;
+}
+.pagination li:last-of-type a {
+    background: #00783C;
+     margin-left: 30px;
+     
+}
+.form-group {
+    position: relative
+}
+
+.form-group label {
+    font-size: .8125em; 
+    position: absolute;
+    top: 0.6em;
+    left: 1.8em;
+    color: #444;
+    opacity: 0;
+    z-index: 1;
+    -webkit-transition: .333s ease top, .333s ease opacity;
+    transition: .333s ease top, .333s ease opacity;
+}
+.showIt {
+    opacity: 1;
+    top: 1.5em
+}
+#nome::placeholder{
+    color: #fff
 }

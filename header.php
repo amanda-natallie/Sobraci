@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
     <head>
         <meta http-equiv="content-type" content="text/html;charset=utf-8" />
         <meta charset="UTF-8">
@@ -18,15 +17,12 @@
         <link type="text/css" href="revolution/css/navigation.css" rel="stylesheet">
         <link type="text/css" href="" rel="stylesheet">
         <link type="text/css" href="" rel="stylesheet">
-        <style>
-            
-        </style>
     </head>
     <body>
 
-        <nav class="navbar navbar-default navbar-fixed-top">
+        <nav class="navbar navbar-default navbar-fixed-top wow fadeInDown">
             <div class="container">
-                <div class="navbar-header">
+                <div class="navbar-header  wow fadeInDown">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
@@ -41,19 +37,18 @@
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                     </ul>
                 </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav menu-middle">
-                        <li class="active"><a class="hvr-float" href="#">Inicio</a></li>
-                        <li><a href="#about" class="hvr-float">Institucional</a></li>
-                        <li><a href="#contact" class="hvr-float">Serviços</a></li>
-                        <li><a href="#contact" class="hvr-float">Raças</a></li>
-                        <li><a href="#contact" class="hvr-float">Eventos</a></li>
-                        <li><a href="#contact" class="hvr-float">Artigos</a></li>
-                        <li><a href="#contact" class="hvr-float">Núcleos</a></li>
-                        <li><a href="#contact" class="hvr-float">Contato</a></li>
-
+                <div id="navbar" class="navbar-collapse collapse ">
+                    <ul class="nav navbar-nav menu-middle wow fadeInDown" data-wow-delay="300ms">
+                        <li><a class="hvr-float" href="">Inicio</a></li>
+                        <li><a href="sobre-nos" class="hvr-float">Institucional</a></li>
+                        <li><a href="juizes" class="hvr-float">Serviços</a></li>
+                        <li><a href="racas" class="hvr-float">Raças</a></li>
+                        <li><a href="" class="hvr-float">Eventos</a></li>
+                        <li><a href="artigos" class="hvr-float">Artigos</a></li>
+                        <li><a href="" class="hvr-float">Núcleos</a></li>
+                        <li><a href="contato" class="hvr-float">Contato</a></li>
                     </ul>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav navbar-right wow fadeInDown" data-wow-delay="600ms">
                         <li><a href="" class="selo"><img src="assets/img/tim.png" alt="" title="" class="img-responsive"></a></li>
                         <li><a href="" class="big-green-button hvr-float">Abrir canil</a></li>
                     </ul>

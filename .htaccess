@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+DirectoryIndex index.html
+RewriteRule ^index$ index.html [NC,L]
+RewriteRule ^sobre-nos$ sobre.html [NC,L]
+RewriteRule ^juizes$ juizes.html [NC,L]
+RewriteRule ^reconhecimento-internacional$ reconhecimento.html [NC,L]
+RewriteRule ^artigos$ artigos.html [NC,L]
+RewriteRule ^racas$ racas.html [NC,L]
+RewriteRule ^contato$ contato.html [NC,L]
