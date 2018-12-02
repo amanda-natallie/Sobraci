@@ -1,3 +1,4 @@
+
 @media (max-width: 1000px) {
     footer .navbar-header {
     float: left;
@@ -46,6 +47,9 @@
     .collapse.in{
         display:block !important;
     }
+}
+@media (min-width:1024px){
+   
 }
 @media (min-width:1024px){
     .banner_breadcrumb {

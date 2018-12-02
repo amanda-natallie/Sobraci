@@ -285,7 +285,7 @@ footer {
 }
 .banner_breadcrumb {
     background-size: 100%;
-    background-position: bottom center;
+    background-position: top center;
     background-repeat: no-repeat;
 }
 .grid-item { 
