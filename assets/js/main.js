@@ -46,9 +46,9 @@ tpj(document).ready(function () {
         revapi1078 = tpj("#rev_slider_1078_1").show().revolution({
             sliderType: "standard",
             jsFileLocation: "revolution/js/",
-            sliderLayout: "fullwidth",
+            sliderLayout: "fullscreen",
             dottedOverlay: "none",
-            delay: 9000,
+            delay: 5000,
             navigation: {
                 keyboardNavigation: "off",
                 keyboard_direction: "horizontal",
@@ -141,3 +141,14 @@ tpj(document).ready(function () {
         });
     }
 });	
+/*MENU STICKY*/
+
+
+$(window).scroll(function() {
+    if ($(".navbar-fixed-top").offset().top > 80) {
+       
+        $(".navbar-fixed-top").addClass("white-bg");
+    } else {
+       $(".navbar-fixed-top").removeClass("white-bg");
+    }
+});

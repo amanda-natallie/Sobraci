@@ -6,8 +6,8 @@
     transition: all ease 0.3s
 }
 .navbar-default {
-    background-color: #fff;
-    border-color: #e7e7e7;
+    background: none;
+    border: 0;
 }
 html, body{
   height: 100%;
@@ -28,6 +28,10 @@ h1, h2, h3, h4, h5 {
 .navbar {
     padding-top: 10px;
     box-shadow: none;
+    margin-bottom: 0
+}
+.navbar  *{
+    background: none
 }
 .margin-navbar {
     margin-top: 15px
@@ -43,7 +47,6 @@ h1, h2, h3, h4, h5 {
     position: relative;
 }
 body {
-    padding-top: 70px;
     overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
 }
@@ -52,6 +55,9 @@ a {
 }
 .light-green-bg {
     background: #94C325 !important;
+}
+.white-bg {
+    background: #fff !important
 }
 .light-green-text, green-text * {
     color: #94C325 !important;
@@ -87,7 +93,7 @@ a {
 
 }
 .navbar-right .selo {
-    padding-top: 10px
+    margin-top: -15px
 }
 .social-header {
     margin-right: 20px;
@@ -111,7 +117,7 @@ a {
     border-bottom: 1px solid
 }
 .navbar .active a{
-    background: #fff !important;
+    background: none !important;
     font-weight: bold;
     border-bottom: 1px solid
 }
@@ -242,4 +248,11 @@ footer {
 }
 .footer .social-header li{
  margin-left: 5px !important
+}
+.nav {
+    margin-left: 20px;
+    margin-top: 5px
+}
+.nav>li>a {
+    padding: 15px 10px
 }

@@ -22,7 +22,6 @@
             
         </style>
     </head>
-
     <body>
 
         <nav class="navbar navbar-default navbar-fixed-top">
@@ -55,7 +54,7 @@
 
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="" class="selo hvr-float"><img src="assets/img/tim.png" alt="" title="" class="img-responsive"></a></li>
+                        <li><a href="" class="selo"><img src="assets/img/tim.png" alt="" title="" class="img-responsive"></a></li>
                         <li><a href="" class="big-green-button hvr-float">Abrir canil</a></li>
                     </ul>
                 </div>
